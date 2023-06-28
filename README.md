@@ -41,6 +41,7 @@ There are test files in the `test   directory.
 To run the program, use the following command:
 
 `./factors <filename>`
+
 `./rsa tests/rsa-1`
 
 Replace <filename> with the path to the file containing the numbers to factorize.
@@ -54,12 +55,6 @@ Suppose we have a file named **test00** located in the tests directory with the 
 
 4
 
-12
-
-34
-
-128
-
 1024
 
 4958
@@ -68,15 +63,21 @@ Running the program with the command `./factors tests/test00` will output:
 
 4=2*2
 
-12=6*2
-
-34=17*2
-
-128=64*2
-
 1024=512*2
 
 4958=2479*2
+
+Supposed file named `rsa-1` located in the `tests` directory with the following content:
+
+6
+
+Running the program with the command `./factors tests/rsa-1` will output:
+
+6 = 3*2
+
+Similarly, running the program with the command `./factors tests/rsa-16` will output:
+
+2497885147362973=49979141*49978553
 
 ## Contributing
 
