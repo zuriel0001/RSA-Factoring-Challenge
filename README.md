@@ -36,8 +36,12 @@ Before running the program, ensure that you have the following prerequisites ins
 
 ## Usage
 
+There are test files in the `test   directory.
+
 To run the program, use the following command:
+
 `./factors <filename>`
+`./rsa tests/rsa-1`
 
 Replace <filename> with the path to the file containing the numbers to factorize.
 
